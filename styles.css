@@ -192,3 +192,10 @@ button {
     flex-direction: column;
   }
 }
+@media only screen and (min-width: 992px) {
+  #histories{
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+  }
+}
+
